@@ -1,0 +1,455 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #070707;
+}
+/* #DBF20C */
+/* #DECB21 */
+/* #656667 */
+/* #46494D */
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info
+{
+    width: 310px;
+    height: 1000px;
+    border: none;
+    margin-left: 100px;
+    margin-right: 10px;
+    background-color: #46494D;
+    float: left;
+}
+.info p
+{
+    color: #DECB21;
+    background-color: #46494D;
+    margin: 5% 20%;
+    font-size: 18px;
+}
+.info .contact
+{
+    color: #DECB21;
+    font-size: 30px;
+    margin: 20% 20%;
+    background-color: #46494D;
+}
+.info hr
+{
+    height: 5px;
+    border: none;
+    background-color: #DECB21;
+    margin: -17% 10% -7% 10%;
+}
+.info .mail
+{
+    width: 40px;
+    height: 40px;
+    margin: 18% 20% 0 20%;
+    border: 1px solid #000;
+    float: left;
+}
+.info .others
+{
+    color: #DECB21;
+    font-size: 30px;
+    margin: 50% 20% 20% 20%;
+    background-color: #46494D;
+}
+.info .socials
+{
+    width: 40px;
+    height: 40px;
+    margin: 12% 20% 0 20%;
+    border: 1px solid #000;
+    float: left;
+}
+.info img
+{
+    width: 180px;
+    height: 180px;
+    margin: 15% 20%;
+    border-radius: 100%;
+}
+.talen
+{
+    height: 660px;
+    width: 610px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    flex-wrap: wrap;
+}
+.talen h1
+{
+    color: #DECB21;
+    font-size: 30px;
+    margin: 5% 5% 2% 5%;
+    background-color: #656667;
+}
+.talen hr
+{
+    height: 5px;
+    border: none;
+    background-color: #DECB21;
+    margin: 0 50% 5% 5%;
+}
+.talen img
+{
+    width: 235px;
+    height: 135px;
+    margin: -20% 5%;
+    background-color: #656667;
+    display: inline-block;
+}
+.ned
+{
+    width: 235px;
+    height: 218px;
+    background-color: #656667;
+    margin: 0 2% 0 2%;
+    padding: 0;
+}
+.ned img
+{
+    width: 235px;
+    height: 135px;
+}
+.nederlands
+{
+    position: absolute;
+    margin: 40px 12px;
+    width: 235px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 70px;
+    text-align: center;
+}
+.nederlands p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.nederlands ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.fra
+{
+    width: 235px;
+    height: 218px;
+    background-color: #656667;
+    margin: 0 2% 0 2%;
+    padding: 0;
+}
+.fra img
+{
+    width: 235px;
+    height: 135px;
+}
+.frans
+{
+    position: absolute;
+    margin: 40px 12px;
+    width: 235px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 70px;
+    text-align: center;
+}
+.frans p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.frans ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.dui
+{
+    width: 235px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 0 0 15px;
+    padding: 0;
+}
+.dui img
+{
+    width: 225px;
+    height: 135px;
+}
+.duits
+{
+    position: absolute;
+    margin: 40px 12px;
+    width: 225px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 70px;
+    text-align: center;
+}
+.duits p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.duits ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.eng
+{
+    width: 235px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 20px 0 20px;
+    padding: 0;
+}
+.eng img
+{
+    width: 235px;
+    height: 135px;
+}
+.engels
+{
+    position: absolute;
+    margin: 40px 12px;
+    width: 235px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 70px;
+    text-align: center;
+}
+.engels p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.engels ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.cirkelV
+{
+    width: 17px;
+    height: 17px;
+    background-color: #DBF20C;
+    border: 5px solid #000000;
+    border-radius: 100%;
+    padding: 2%;
+    margin-left: 10%;
+}
+.cirkelL
+{
+    width: 17px;
+    height: 17px;
+    background-color: #656667;
+    border: 5px solid #000000;
+    border-radius: 100%;
+    padding: 2%;
+    margin-left: 10%;
+}
+.cirkelH
+{
+    width: 17px;
+    height: 17px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    background-color: #DBF20C;
+    border: 5px solid #000000;
+    padding: 2% 0.5%;
+    margin-left: 10%;
+}
+.opleiding
+{
+    height: 660px;
+    width: 610px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    flex-wrap: wrap;
+}
+.opleiding h1
+{
+    color: #DECB21;
+    font-size: 30px;
+    margin: 5% 5% 2% 5%;
+    background-color: #656667;
+}
+.opleiding hr
+{
+    height: 5px;
+    border: none;
+    background-color: #DECB21;
+    margin: 0 50% 5% 5%;
+}
+.sfc
+{
+    width: 235px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 50px 0 50px;
+    padding: 0;
+}
+.sfc img
+{
+    width: 180px;
+    height: 180px;
+    margin: 0 30px;
+}
+.sint-fran
+{
+    position: absolute;
+    margin: -5px 0;
+    width: 240px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 80px;
+    text-align: center;
+}
+.sint-fran p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.cpm
+{
+    width: 240px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 0 0 0;
+    padding: 0;
+}
+.cpm img
+{
+    width: 240px;
+    height: 180px;
+}
+.campus-max
+{
+    position: absolute;
+    margin: -5px 0;
+    width: 240px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 80px;
+    text-align: center;
+}
+.campus-max p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.pxl
+{
+    width: 240px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 0 0 0;
+    padding: 0;
+}
+.pxl img
+{
+    width: 180px;
+    height: 180px;
+    margin: 25px 30px 0 230px;
+}
+.pxlhasselt
+{
+    position: absolute;
+    margin: -5px 200px;
+    width: 240px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 80px;
+    text-align: center;
+}
+.pxlhasselt p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.pxl-jairo
+{
+    width: 180px;
+    height: 218px;
+    background-color: #656667;
+    margin: -50px 0 0 0;
+    padding: 0;
+}
+.pxl-jairo img
+{
+    width: 180px;
+    height: 180px;
+    margin: 0 30px;
+}
+.pxlhasselt-jairo
+{
+    position: absolute;
+    margin: -5px 0;
+    width: 240px;
+    color: #DECB21;
+    border: 5px solid #DECB21;
+    background-color: #656667;
+    height: 80px;
+    text-align: center;
+}
+.pxlhasselt-jairo p
+{
+    font-size: 30px;
+    background-color: #656667;
+}
+.werk
+{
+    height: 315px;
+    width: 1240px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vdb, .thes, .hobbie
+{
+    border: 5px solid #000000;
+    color: #DECB21;
+    background-color: #656667;
+    width: 300px;
+    height: 180px;
+    margin: 50px;
+    text-align: center;
+}
+.vdb h1, .thes h1, .hobbie h1
+{
+    border-bottom: 5px solid #000000;
+    background-color: #656667;
+}
+.vdb p, .thes p, .hobbie p
+{
+    padding: 10px 0 0 0;
+    font-size: 28px;
+    background-color: #656667;
+}

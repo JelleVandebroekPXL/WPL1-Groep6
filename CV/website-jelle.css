@@ -1,0 +1,347 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*
+#004766
+#0070a0
+#B8B128
+*/
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #004766;
+}
+header
+{
+    width: 100%;
+}
+header h1
+{
+    text-align: center;
+    padding: 3%;
+    font-size: 70px;
+    background-color: #00364f;
+    color: #0070a0;
+}
+#logo
+{
+    float: left;
+    padding-top: 0.7%;
+    padding-left: 1%;
+}
+.volgende, .klassement, .info,.oefeningen
+{
+    margin: 1%;
+}
+.volgende
+{
+    width: 64%;
+    height: 300px;
+    background-color: #0070a0;
+}
+.volgende h1
+{
+    font-size: 37px;
+    padding: 2%;
+    color: #B8B128;
+}
+.volgende ul
+{
+    padding: 0 15%;
+}
+.volgende ul li
+{
+    float: left;
+    list-style-type: none;
+}
+.volgende ul li p
+{
+    font-size: 35px;
+    text-align: center;
+    padding: 8% 27%;
+    color: #B8B128;
+    font-weight: bold;
+}
+.info
+{
+    width: 64%;
+    height: 400px;
+    background-color: #0070a0;
+    color: #B8B128;
+    padding: 1% 5% 1% 1%;
+}
+.info h1
+{
+    font-size: 37px;
+    padding-bottom: 1%;
+}
+.info p
+{
+    font-size: 17px;
+}
+.oefeningen
+{
+    width: 64%;
+    height: 550px;
+    background-color: #0070a0;
+    color: #B8B128;
+    display: flex;
+    flex-wrap: wrap;
+}
+.oefeningen h1
+{
+    width: 100%;
+    font-size: 37px;
+    padding: 2% 2% 0 2%;
+}
+.oefening
+{
+    border: 5px solid #B8B128;
+    color: #B8B128;
+    background-color: #0291d5;
+    width: 300px;
+    height: 150px;
+    margin: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.oefening:hover
+{
+    border: 5px solid #64621e;
+}
+.oefening h2
+{
+    border-bottom: 5px solid #B8B128;
+    background-color: #0291d5;
+    padding: 3%;
+}
+.oefening p
+{
+    padding: 10px 0 0 0;
+    font-size: 30px;
+    background-color: #0291d5;
+}
+.oefening a
+{
+    text-decoration: none;
+    color: #B8B128;
+}
+.klassement
+{
+    font-size: 20px;
+    width: 32%;
+    height: 1330px;
+    position: relative;
+    top: -780px;
+    padding: 2%;
+    background-color: #0070a0;
+}
+table, tr, th, td
+{
+    border-collapse: collapse;
+    border: 5px solid #B8B128;
+}
+.positie
+{
+    padding: 5%;
+    text-align: center;
+    width: 100px;
+}
+.naam
+{
+    padding: 5%;
+    text-align: center;
+    width: 300px;
+}
+.match
+{
+    padding: 5%;
+    text-align: center;
+    width: 80px;
+}
+.punt
+{
+    padding: 5%;
+    text-align: center;
+    width: 80px;
+}
+@media screen and (max-width: 800px)
+{
+    img
+    {
+        display: none;
+    }
+    header
+    {
+        width: 100%;
+    }
+    header h1
+    {
+        padding: 2% 10% 2% 2%;
+    }
+    .volgende, .info, .oefeningen
+    {
+        width: 53%;
+    }
+    .volgende h1
+    {
+        font-size: 30px;
+    }
+    .volgende ul li p
+    {
+        padding: 14% 20%;
+        font-size: 28px;
+    }
+    .info h1
+    {
+        font-size: 30px;
+        padding-bottom: 3%;
+    }
+    .info p
+    {
+        font-size: 16px;
+    }
+    .info .drie
+    {
+        display: none;
+    }
+    .oefeningen
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .oefeningen h1
+    {
+        font-size: 30px;
+    }
+    .oefening
+    {
+        border: 5px solid #B8B128;
+        color: #B8B128;
+        background-color: #0291d5;
+        margin: 5%;
+        width: 40%;
+        height: 100px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .oefening:hover
+    {
+        border: 5px solid #64621e;
+    }
+    .oefening h2
+    {
+        border-bottom: 5px solid #B8B128;
+        background-color: #0291d5;
+    }
+    .oefening p
+    {
+        font-size: 15px;
+        background-color: #0291d5;
+    }
+    .klassement
+    {
+        top: -730px;
+        font-size: 15px;
+    }
+    .match
+    {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    img
+    {
+        display: none;
+    }
+    header
+    {
+        width: 100%;
+    }
+    header h1
+    {
+        padding: 2% 10% 2% 2%;
+        font-size: 25px;
+    }
+    .volgende, .info, .oefeningen
+    {
+        width: 50%;
+    }
+    .volgende h1
+    {
+        font-size: 20px;
+    }
+    .volgende ul li p
+    {
+        padding: 45% 5%;
+        font-size: 20px;
+    }
+    .info h1
+    {
+        font-size: 20px;
+        padding-bottom: 6%;
+    }
+    .info p
+    {
+        font-size: 18px;
+    }
+    .info .drie, .twee
+    {
+        display: none;
+    }
+    .oefeningen
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .oefeningen h1
+    {
+        font-size: 20px;
+    }
+    .oefening
+    {
+        border: 5px solid #B8B128;
+        color: #B8B128;
+        background-color: #0291d5;
+        margin: 5%;
+        width: 40%;
+        height: 90px;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .oefening:hover
+    {
+        border: 5px solid #64621e;
+    }
+    .oefening h2
+    {
+        border-bottom: 5px solid #B8B128;
+        background-color: #0291d5;
+        font-size: 12px;
+    }
+    .oefening p
+    {
+        font-size: 9px;
+        background-color: #0291d5;
+    }
+    .klassement
+    {
+        top: -715px;
+        height: 1265px;
+        font-size: 10px;
+    }
+    table, tr, td, th
+    {
+        border: 4px solid #B8B128;
+    }
+    .positie, .match
+    {
+        display: none;
+    }
+}

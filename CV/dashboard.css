@@ -1,0 +1,228 @@
+*
+{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info .profielfoto img
+{
+    height: 2048px;
+    width: 970px;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.info
+{
+    width: 310px;
+    height: 1000px;
+    border: none;
+    margin-left: 100px;
+    margin-right: 10px;
+    background-color: #46494D;
+    float: left;
+}
+.info p
+{
+    color: #DECB21;
+    background-color: #46494D;
+    margin: 5% 20%;
+    font-size: 18px;
+}
+.info .contact
+{
+    position: relative;
+    color: #DECB21;
+    font-size: 20px;
+    margin: 20% 20%;
+    background-color: #46494D;
+}
+.info hr
+{
+    height: 2px;
+    border: none;
+    background-color: #DECB21;
+    margin: -17% 10% -7% 10%;
+}
+.info .mail
+{
+    width: 40px;
+    height: 40px;
+    margin: 18% 20% 0 20%;
+    border: 1px solid #000;
+    float: left;
+}
+.info .others
+{
+    color: #DECB21;
+    font-size: 20px;
+    margin: 50% 20% 20% 20%;
+    background-color: #46494D;
+}
+.info .socials
+{
+    width: 40px;
+    height: 40px;
+    margin: 12% 20% 0 20%;
+    border: 1px solid #000;
+    float: left;
+}
+.info img
+{
+    width: 180px;
+    height: 180px;
+    margin: 15% 20%;
+    border-radius: 100%;
+}
+.skills
+{
+    height: 660px;
+    width: 610px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skills h1
+{
+    color: #DECB21;
+    width: 100%;
+    font-size: 30px;
+    margin: 5%;
+    background-color: #656667;
+}
+.onderdeel
+{
+    border: 5px solid black;
+    width: 220px;
+    height: 70px;
+    margin: -15% 1% 1% 1%;
+}
+.onderdeel h2
+{
+    text-align: center;
+}
+.onderdeel ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.cirkelV
+{
+    width: 17px;
+    height: 17px;
+    background-color: #DBF20C;
+    border: 5px solid #000000;
+    border-radius: 100%;
+    padding: 2%;
+    margin-left: 10%;
+}
+.cirkelL
+{
+    width: 17px;
+    height: 17px;
+    background-color: #656667;
+    border: 5px solid #000000;
+    border-radius: 100%;
+    padding: 2%;
+    margin-left: 10%;
+}
+.cirkelH
+{
+    width: 17px;
+    height: 17px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    background-color: #DBF20C;
+    border: 5px solid #000000;
+    padding: 2% 0.5%;
+    margin-left: 10%;
+}
+.toolexp
+{
+    height: 660px;
+    width: 610px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.toolexp h1
+{
+    color: #DECB21;
+    width: 100%;
+    font-size: 30px;
+    margin: 5%;
+    background-color: #656667;
+}
+.extensie
+{
+    border: 5px solid black;
+    width: 220px;
+    height: 70px;
+    margin: -15% 1% 1% 1%;
+}
+.extensie h2
+{
+    text-align: center;
+}
+.extensie ul li
+{
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+.achieve
+{
+    height: 315px;
+    width: 1240px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.achieve h1
+{
+    position: relative;
+    width: 100%;
+    top: 25px;
+    left: 30px;
+    color: #DECB21;
+}
+.diploma
+{
+    border: 5px solid #000000;
+    color: #DECB21;
+    background-color: #656667;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+}
+.diploma h2
+{
+    border-bottom: 5px solid #000000;
+    background-color: #656667;
+    padding: 3%;
+}
+.diploma p
+{
+    padding: 10px 0 0 0;
+    font-size: 30px;
+    background-color: #656667;
+}

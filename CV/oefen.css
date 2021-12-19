@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.werk
+{
+    height: 315px;
+    width: 1240px;
+    margin: 10px;
+    border-radius: 10%;
+    background-color: #656667;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vdb, .thes, .hobbie
+{
+    border: 5px solid #000000;
+    color: #DECB21;
+    width: 300px;
+    height: 180px;
+    margin: 50px;
+    text-align: center;
+}
+.vdb h1, .thes h1, .hobbie h1
+{
+    border-bottom: 5px solid #000000;
+}
+.vdb p, .thes p, .hobbie p
+{
+    padding: 10px 0 0 0;
+    font-size: 40px;
+}
